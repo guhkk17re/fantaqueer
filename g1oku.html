@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia do Ocultista | Ordem Paranormal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Santuário do Ocultista</h1>
+            <p class="subtitle">Dobre a Outro Lado. Domine as Entidades. Não Perca sua Sanidade.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro-ocultista">
+            <h2>A Arte de Entender o Incompreensível</h2>
+            <p>
+                Enquanto Combatentes usam a força e Especialistas usam a genialidade mundana, o <strong>Ocultista</strong> olha diretamente para o Abismo. Esta classe é focada no estudo, conjuração de Rituais e manipulação da Membrana. Se você quer ser o pilar de suporte, o mestre do controle de grupo ou a fonte de dano devastador Paranormal, este é o seu caminho.
+            </p>
+            <div class="warning-box">
+                <p>⚠️ <strong>Aviso de Investigador:</strong> O conhecimento cobra seu preço. Monitore seus Pontos de Sanidade (SAN) ao conjurar Rituais!</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="elementos-section">
+            <h2>Os Cinco Elementos do Outro Lado</h2>
+            <p class="instruction">Clique nos botões abaixo para canalizar o conhecimento de cada Elemento:</p>
+
+            <div class="element-buttons">
+                <button class="btn-element btn-sangue" onclick="showElement('sangue')">Sangue</button>
+                <button class="btn-element btn-morte" onclick="showElement('morte')">Morte</button>
+                <button class="btn-element btn-conhecimento" onclick="showElement('conhecimento')">Conhecimento</button>
+                <button class="btn-element btn-energia" onclick="showElement('energia')">Energia</button>
+                <button class="btn-element btn-medo" onclick="showElement('medo')">Medo</button>
+            </div>
+
+            <div class="display-container">
+                
+                <article id="sangue" class="element-card active">
+                    <div class="card-header">
+                        <h3>Sangue — Sentimento e Dor</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://static.wikia.nocookie.net/ordemparanormal/images/0/07/Simbolo_Sangue.png" alt="Símbolo de Sangue" class="element-img">
+                        <div class="card-text">
+                            <p>O <strong>Sangue</strong> é a entidade da emoção extrema, da dor, da paixão e do desejo desenfreado. Ele busca sentir tudo no nível mais puro e violento.</p>
+                            <ul>
+                                <li><strong>Foco do Ocultista:</strong> Rituais de cura, buffs físicos, alteração corporal e dano de corte/perfuração.</li>
+                                <li><strong>Vantagem Relacional:</strong> O Sangue supera o <em>Conhecimento</em> (a emoção ignora a razão), mas é superado pela <em>Morte</em>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="morte" class="element-card">
+                    <div class="card-header">
+                        <h3>Morte — Tempo e Lodo</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://static.wikia.nocookie.net/ordemparanormal/images/1/10/Simbolo_Morte.png" alt="Símbolo de Morte" class="element-img">
+                        <div class="card-text">
+                            <p>A <strong>Morte</strong> busca distorcer a percepção do tempo, consumindo momentos e cobrindo a realidade com o Lodo inescapável.</p>
+                            <ul>
+                                <li><strong>Foco do Ocultista:</strong> Controle de tempo (desacelerar inimigos/acelerar aliados), drenagem de vida e decrepitude.</li>
+                                <li><strong>Vantagem Relacional:</strong> A Morte supera o <em>Sangue</em> (o tempo consome a paixão), mas é superada pela <em>Energia</em>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="conhecimento" class="element-card">
+                    <div class="card-header">
+                        <h3>Conhecimento — Razão e Consciência</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://static.wikia.nocookie.net/ordemparanormal/images/d/df/Simbolo_Conhecimento.png" alt="Símbolo de Conhecimento" class="element-img">
+                        <div class="card-text">
+                            <p>O <strong>Conhecimento</strong> busca saber tudo. É a entidade da geometria, dos sigilos, da ordem forcedura e do controle mental.</p>
+                            <ul>
+                                <li><strong>Foco do Ocultista:</strong> Manipulação mental, revelação de pistas, selamento de alvos e buffs mentais.</li>
+                                <li><strong>Vantagem Relacional:</strong> O Conhecimento supera a <em>Energia</em> (a lógica suprime o caos), mas é superado pelo <em>Sangue</em>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="energia" class="element-card">
+                    <div class="card-header">
+                        <h3>Energia — Caos e Transformação</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://static.wikia.nocookie.net/ordemparanormal/images/4/4b/Simbolo_Energia.png" alt="Símbolo de Energia" class="element-img">
+                        <div class="card-text">
+                            <p>A <strong>Energia</strong> é a entidade do imprevisível, do calor, da eletricidade e da constante mutação do acaso.</p>
+                            <ul>
+                                <li><strong>Foco do Ocultista:</strong> Dano massivo elemental (fogo, eletricidade), teletransporte e alteração da probabilidade.</li>
+                                <li><strong>Vantagem Relacional:</strong> A Energia supera a <em>Morte</em> (o caos acelera a estagnação), mas é superada pelo <em>Conhecimento</em>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="medo" class="element-card">
+                    <div class="card-header">
+                        <h3>Medo — O Inescapável</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://static.wikia.nocookie.net/ordemparanormal/images/9/93/Simbolo_Medo.png" alt="Símbolo de Medo" class="element-img">
+                        <div class="card-text">
+                            <p>O <strong>Medo</strong> é o elemento infinito do qual todos os outros derivam. Ele não possui oposto e não pode ser completamente compreendido.</p>
+                            <ul>
+                                <li><strong>Foco do Ocultista:</strong> Rituais extremamente poderosos, capazes de desafiar as próprias regras da realidade e do sistema.</li>
+                                <li><strong>Vantagem Relacional:</strong> Neutro. Não possui fraqueza e nem elemento dominante.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function showElement(elementId) {
+            // Esconde todos os cards
+            const cards = document.querySelectorAll('.element-card');
+            cards.forEach(card => card.classList.remove('active'));
+
+            // Mostra o card selecionado
+            const activeCard = document.getElementById(elementId);
+            if (activeCard) {
+                activeCard.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
