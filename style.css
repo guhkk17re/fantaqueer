@@ -8,11 +8,11 @@
     --color-sangue: #cc0000;
     --color-sangue-glow: rgba(204, 0, 0, 0.4);
     
-    --color-morte: #1b4d3e;
-    --color-morte-glow: rgba(27, 77, 62, 0.5);
+    --color-morte: #343535;
+    --color-morte-glow: rgba(177, 175, 175, 0.5);
     
     --color-conhecimento: #e6b800;
-    --color-conhecimento-glow: rgba(230, 184, 0, 0.4);
+    --color-conhecimento-glow: rgba(201, 148, 2, 0.877);
     
     --color-energia: #8a2be2;
     --color-energia-glow: rgba(138, 43, 226, 0.5);
