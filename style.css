@@ -2,7 +2,9 @@
    CONFIGURAÇÃO GERAL E VARIÁVEIS
    ========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;600;700&display=swap');
-
+body {
+    max-width: 100vw;
+}
 :root {
     /* Cores Temáticas dos Elementos */
     --color-sangue: #cc0000;
